@@ -1,0 +1,32 @@
+# Датасет и результаты обучения не хранятся в репозитории
+dataset/
+runs/
+SIVED/
+SIVED-main/
+
+# Архивы
+*.rar
+*.zip
+*.7z
+
+# Предобученные базовые веса Ultralytics
+yolo12n.pt
+yolo26n.pt
+yolo11n.pt
+yolov8n.pt
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# Ultralytics
+*.cache
+
+# IDE / ОС
+.vscode/
+.idea/
+Thumbs.db
+desktop.ini

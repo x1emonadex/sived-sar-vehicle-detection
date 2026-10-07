@@ -1,0 +1,13 @@
+# Конфигурация датасета для Ultralytics YOLO.
+# Структура dataset/ создаётся скриптом scripts/prepare_dataset.py
+# из исходного датасета SIVED (формат DOTA).
+#
+# Пути указаны относительно корня проекта, поэтому обучение запускается
+# из корня репозитория: python train.py
+
+train: dataset/images/train
+val: dataset/images/valid
+test: dataset/images/test
+
+names:
+  0: Vehicle

@@ -1,0 +1,14 @@
+# Базовые зависимости проекта.
+# torch/torchvision при необходимости ставьте под свою CUDA отдельно,
+# например: pip install torch torchvision --index-url https://download.pytorch.org/whl/cu128
+streamlit>=1.40
+ultralytics>=8.3
+torch>=2.4
+torchvision>=0.19
+opencv-python>=4.9
+numpy>=1.26
+pandas>=2.0
+requests>=2.31
+pillow>=10.0
+PyYAML>=6.0
+matplotlib>=3.8
